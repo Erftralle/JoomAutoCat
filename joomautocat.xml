@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="user" method="upgrade">
   <name>PLG_JOOMAUTOCAT</name>
-  <author>Patrick (aka Chraneco)</author>
-  <creationDate>11.03.2013</creationDate>
-  <copyright>Copyright (C) 2009 - 2013 Open Source Matters. All rights reserved.</copyright>
+  <author>Patrick (aka Chraneco); since 2019 JoomGallery::ProjectTeam</author>
+  <creationDate>2019/04/08</creationDate>
+  <copyright>Copyright (C) 2009 - 2019 Open Source Matters. All rights reserved.</copyright>
   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-  <authorEmail>chraneco@joomgallery.net</authorEmail>
-  <authorUrl>www.joomgallery.net</authorUrl>
-  <version>3.0</version>
+  <authorUrl>www.joomgalleryfriends.net</authorUrl>
+  <version>3.0.1</version>
   <description>PLG_JOOMAUTOCAT_DESC</description>
   <files>
     <filename plugin="joomautocat">joomautocat.php</filename>
@@ -44,6 +43,6 @@
     </fields>
   </config>
   <updateservers>
-    <server type="collection" priority="1" name="JoomGallery Update Service">http://www.en.joomgallery.net/components/com_newversion/xml/extensions3.xml</server>
+    <server type="collection" priority="1" name="JoomGallery Update Service">https://www.joomgalleryfriends.net/components/com_newversion/xml/extensions3.xml</server>
   </updateservers>
 </extension>
