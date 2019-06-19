@@ -1,10 +1,9 @@
 <?php
-// $HeadURL: https://joomgallery.org/svn/joomgallery/JG-3/Plugins/JoomAutoCat/trunk/joomautocat.php $
-// $Id: joomautocat.php 4137 2013-03-11 12:58:59Z chraneco $
 /******************************************************************************\
 **   JoomGallery User Plugin 'AutoCreation of User Categories' 3.0            **
 **   By: JoomGallery::ProjectTeam                                             **
-**   Copyright (C) 2009 - 2013 Patrick (aka Chraneco)                         **
+**   Copyright (C) 2009 - 2013 Patrick (aka Chraneco),                        **
+*                  2013 - 2019 JoomGallery::ProjectTeam                       **
 **   Released under GNU GPL Public License                                    **
 **   License: http://www.gnu.org/copyleft/gpl.html                            **
 \******************************************************************************/
@@ -87,7 +86,9 @@ class plgUserJoomAutoCat extends JPlugin
   {
     // Get the interface
     require_once JPATH_ROOT.'/components/com_joomgallery/interface.php';
+
     $jinterface = new JoomInterface();
+    $category   = new stdClass;
 
     // Create the category
     switch($this->params->get('categoryname'))
