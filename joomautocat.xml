@@ -2,11 +2,11 @@
 <extension version="3.0" type="plugin" group="user" method="upgrade">
   <name>PLG_JOOMAUTOCAT</name>
   <author>Patrick (aka Chraneco); since 2019 JoomGallery::ProjectTeam</author>
-  <creationDate>2019/04/08</creationDate>
-  <copyright>Copyright (C) 2009 - 2019 Open Source Matters. All rights reserved.</copyright>
+  <creationDate>2021/03/23</creationDate>
+  <copyright>Copyright (C) 2009 - 2021 Open Source Matters. All rights reserved.</copyright>
   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
   <authorUrl>www.joomgalleryfriends.net</authorUrl>
-  <version>3.0.1</version>
+  <version>3.0.2</version>
   <description>PLG_JOOMAUTOCAT_DESC</description>
   <files>
     <filename plugin="joomautocat">joomautocat.php</filename>
